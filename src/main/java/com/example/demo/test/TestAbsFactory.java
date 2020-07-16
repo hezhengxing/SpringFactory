@@ -18,5 +18,6 @@ public class TestAbsFactory {
         AbsPersonFactory personFactory1 = new CNAbsPersonFactory();
         personFactory1.getPlayer().playBall();
         personFactory1.getManage().manageTeam();
+
     }
 }
